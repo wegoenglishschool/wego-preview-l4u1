@@ -1,0 +1,301 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Say it like a native (video) · GO SENIORS 4 · Unit 1 · Session 4 | WE GO English School</title>
+<style>
+*{box-sizing:border-box;margin:0}body{font-family:system-ui,"Segoe UI",Roboto,sans-serif;background:#F3EEFF;color:#1E1B2E;min-height:100vh}
+.top{display:flex;align-items:center;gap:10px;max-width:1180px;margin:0 auto;padding:12px 16px;font-size:13px;color:#6B6880}
+.logo{background:#1E1B2E;color:#fff;font-weight:900;border-radius:8px;padding:4px 9px;font-size:14px}.logo b{color:#F59E0B}
+.tag{background:#7C3AED;color:#fff;font-weight:800;border-radius:20px;padding:3px 10px;font-size:11px}
+.tag.ex{background:#FEF3C7;color:#92400E}
+.player{max-width:1180px;margin:0 auto;padding:0 16px}
+.scr{position:relative;aspect-ratio:16/9;background:linear-gradient(135deg,#FBF9FF,#EFE8FF);border-radius:20px;overflow:hidden;box-shadow:0 20px 50px #4C1D9526}
+.scene{position:absolute;inset:0;padding:5% 6% 0;opacity:0;visibility:hidden;transition:opacity .5s}
+.scene.on{opacity:1;visibility:visible}
+.eyb{font-size:clamp(11px,1.2vw,15px);font-weight:900;letter-spacing:2px;color:#7C3AED;text-transform:uppercase}
+h1{font-family:Georgia,"Playfair Display",serif;font-size:clamp(24px,4vw,54px);line-height:1.1;margin:.2em 0 .1em}
+h1 small{display:block;font-family:system-ui;font-size:.38em;color:#6B6880;font-style:italic;font-weight:500;margin-top:.3em}
+.b{opacity:0;transform:translateY(14px);transition:opacity .5s,transform .5s}.b.in{opacity:1;transform:none}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:3%;margin-top:3%;width:76%}
+.card{--c:#2563EB;background:#fff;border:3px solid color-mix(in srgb,var(--c) 30%,#fff);border-radius:18px;padding:3% 3% 4%;text-align:center;position:relative}
+.card.flip{border-color:var(--c);background:color-mix(in srgb,var(--c) 6%,#fff)}
+.card img{width:100%;aspect-ratio:3/2;object-fit:contain;border-radius:10px}
+.card .w{font-size:clamp(14px,2.1vw,28px);font-weight:900;margin-top:4%}.card .w2{display:none;color:var(--c)}
+.card.flip .w1{display:none}.card.flip .w2{display:block}
+.card .no{font-size:clamp(11px,1.3vw,17px);color:#64748B;text-decoration:line-through;margin-top:2px;visibility:hidden}.card.flip .no{visibility:visible}
+mark{background:color-mix(in srgb,var(--c,#7C3AED) 16%,#fff);color:var(--c,#7C3AED);border-radius:6px;padding:0 .2em;font-weight:900}
+.card.flip mark{background:var(--c);color:#fff}
+.nc{--c:#DC2626}.tr{--c:#9333EA}
+.rows{display:flex;flex-direction:column;gap:2.4vh;margin-top:3%;width:74%}
+.row{--c:#2563EB;display:flex;align-items:center;gap:2%;background:#fff;border-left:7px solid var(--c);border-radius:14px;padding:1.6% 2.4%;font-size:clamp(14px,2vw,27px);font-weight:700}
+.row .k{min-width:22%;font-weight:900;color:var(--c)}.row s{color:#64748B}
+.row.nc{--c:#DC2626}
+.title{z-index:1;position:absolute;left:6%;top:24%;width:60%}.title h1{font-size:clamp(30px,5.4vw,74px)}
+.pills{display:flex;gap:2%;margin-top:4%}.pill{border-radius:40px;padding:.4em 1em;font-weight:900;font-size:clamp(13px,1.8vw,24px);background:#DBEAFE;color:#1E3A8A}.pill.r{background:#FEE2E2;color:#7F1D1D}
+.quiz{display:grid;grid-template-columns:34% 1fr;gap:4%;margin-top:3%;width:76%;align-items:center}
+.quiz img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:20px;border:4px solid #F59E0B}
+.q{font-size:clamp(16px,2.6vw,36px);font-weight:800;text-align:center;margin-bottom:5%}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:5%}.opt{border:3px solid #7C3AED;background:#fff;border-radius:18px;padding:5% 4%;text-align:center;font-weight:900;font-size:clamp(14px,2.3vw,32px);transition:all .4s}
+.opt.ok{background:#16A34A;border-color:#16A34A;color:#fff;transform:scale(1.05)}.opt.dim{opacity:.3}
+.cd{position:absolute;right:20%;top:8%;width:clamp(40px,6vw,80px);aspect-ratio:1;border-radius:50%;background:#7C3AED;color:#fff;display:none;align-items:center;justify-content:center;font-weight:900;font-size:clamp(18px,3vw,40px)}.cd.on{display:flex}
+.qn{font-weight:900;color:#7C3AED;font-size:clamp(11px,1.3vw,17px)}
+.recap{display:grid;grid-template-columns:1fr 1fr;gap:4%;width:74%;margin-top:3%}
+.rc{--c:#2563EB;background:#fff;border:3px solid var(--c);border-radius:20px;padding:5%}.rc h3{color:var(--c);font-size:clamp(16px,2.4vw,32px)}.rc p{font-size:clamp(14px,2.1vw,28px);font-weight:800;margin-top:4%}.rc.nc{--c:#DC2626}
+.dt{margin-top:3%;width:74%;background:#1E1B2E;color:#fff;border-radius:18px;padding:2.4% 3%;font-weight:800;font-size:clamp(13px,1.8vw,24px)}.dt b{color:#FDE68A}
+.hen{position:absolute;right:2.4%;bottom:20%;width:16%;aspect-ratio:1;border-radius:50%;background:#fff;border:4px solid #F59E0B;overflow:hidden;box-shadow:0 10px 26px #4C1D9533;transition:all .7s}
+.hen svg{width:100%;height:auto;margin-top:4%}
+.hen svg circle[stroke="#F59E0B"]{display:none}/* single clean ring: only the container border */
+.hen{background:#EDE9FE}
+.scr.big .hen{right:8%;bottom:22%;width:28%}
+.cap{position:absolute;left:50%;bottom:4.5%;transform:translateX(-50%);max-width:78%;background:#1E1B2EE8;color:#fff;border-radius:12px;padding:.5em 1em;text-align:center;font-size:clamp(13px,1.75vw,24px);font-weight:600;display:none}
+.cap.on{display:block}.cap i{display:block;color:#FDE68A;font-size:.8em;font-weight:500;margin-top:.15em}.nocc .cap i{display:none}
+.wm{position:absolute;right:2%;top:3%;background:#1E1B2EAA;color:#fff;font-weight:900;border-radius:8px;padding:3px 9px;font-size:12px}.wm b{color:#F59E0B}
+.vp{position:absolute;left:2%;top:3%;background:#FEF3C7;color:#92400E;font-weight:800;border-radius:8px;padding:3px 9px;font-size:11px}
+.ctl{display:flex;align-items:center;gap:12px;background:#1E1B2E;color:#fff;border-radius:0 0 20px 20px;margin-top:-20px;padding:28px 16px 12px;font-size:13px}
+.ctl button{background:none;border:0;color:#fff;font-size:18px;cursor:pointer;font-weight:800}
+.bar{flex:1;height:6px;background:#ffffff33;border-radius:4px;position:relative;cursor:pointer}.bar i{position:absolute;left:0;top:0;bottom:0;background:#A78BFA;border-radius:4px}.bar u{position:absolute;top:-3px;width:2px;height:12px;background:#ffffff88}
+.cc{border:2px solid #fff!important;border-radius:5px;font-size:11px!important;padding:0 4px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 30px}.chip{background:#fff;border:0;border-radius:20px;padding:6px 12px;font-size:12px;font-weight:700;cursor:pointer}.chip.on{background:#1E1B2E;color:#fff}
+.meta h2{font-family:Georgia,serif;font-size:22px;margin-top:14px}.meta p{font-size:12px;color:#6B6880}
+.start{position:absolute;inset:0;background:#1E1B2E99;display:flex;align-items:center;justify-content:center;z-index:9;cursor:pointer}.start span{width:90px;height:90px;border-radius:50%;background:#7C3AED;color:#fff;font-size:36px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 12px #7C3AED44}
+.rec .start,.rec .ctl-hide{display:none}
+@media(max-width:700px){.scr{aspect-ratio:9/14}.rows .row{font-size:13px!important;padding:1% 3%}.wm{display:none}.scene h1{padding-right:18%}.row.nc:nth-child(3){font-size:13px}.top{font-size:11px;flex-wrap:wrap}h1{font-size:26px}.quiz{grid-template-columns:1fr;gap:10px}.quiz img{width:46%;margin:0 auto}.recap{grid-template-columns:1fr}.cap{font-size:13px}.ctl{font-size:11px;gap:8px}#chn{display:none}.scene{padding:6% 5% 0}.rows{gap:1.4vh}.row{flex-direction:column;align-items:flex-start;font-size:15px}.row .k{font-size:13px}.cards,.rows,.quiz,.recap,.dt{width:100%}.hen{width:16%;bottom:auto;top:2.5%;right:3%}.scr.big .hen{width:24%;top:auto;bottom:24%;right:6%}.title{width:88%;top:16%}.cap{max-width:94%;bottom:3%}.row{padding:1.4% 2%}.vp{display:none}}
+
+/* ===== v2 dynamics ===== */
+.scr{--bg1:#FBF9FF;--bg2:#EFE8FF;background:radial-gradient(120% 90% at 85% 10%,var(--bg2),var(--bg1));transition:--bg1 .8s}
+.bgl{position:absolute;inset:0;transition:opacity .9s;opacity:0}.bgl.on{opacity:1}
+.pt{position:absolute;border-radius:50%;opacity:.5;animation:flt var(--d) ease-in-out infinite alternate;pointer-events:none}
+@keyframes flt{from{transform:translate(0,0)}to{transform:translate(var(--x),var(--y))}}
+.scene{transition:none}.scene.on{animation:wipe .75s cubic-bezier(.2,.8,.2,1) both}
+@keyframes wipe{from{clip-path:circle(0% at 86% 72%);opacity:1}to{clip-path:circle(150% at 86% 72%);opacity:1}}
+h1 .wd{display:inline-block;opacity:0;transform:translateY(.5em) rotate(4deg)}
+.scene.on h1 .wd{animation:wdIn .5s cubic-bezier(.2,1.4,.4,1) forwards;animation-delay:calc(.25s + var(--i)*.09s)}
+@keyframes wdIn{to{opacity:1;transform:none}}
+.scene.on .eyb{animation:slideL .5s both}@keyframes slideL{from{opacity:0;transform:translateX(-30px)}to{opacity:1;transform:none}}
+.b{opacity:.62;filter:grayscale(.55);transform:scale(.95);transition:opacity .45s,filter .45s,transform .45s}
+.scene.on .b{animation:peek .6s both;animation-delay:calc(.5s + var(--j,0)*.12s)}
+@keyframes peek{from{opacity:0;transform:translateY(30px) scale(.9)}}
+.b.in{opacity:1;filter:none;transform:none}
+.b.in.pop{animation:popIn .6s cubic-bezier(.2,1.5,.4,1) both!important}
+@keyframes popIn{0%{transform:scale(.7) rotate(-4deg)}60%{transform:scale(1.08) rotate(1deg)}100%{transform:none}}
+.b.focus{box-shadow:0 0 0 5px color-mix(in srgb,var(--c,#7C3AED) 35%,transparent),0 16px 34px #4C1D9530;transform:scale(1.04)!important;z-index:2}
+.card img{animation:bob 3s ease-in-out infinite;animation-delay:var(--dl,0s)}
+@keyframes bob{50%{transform:translateY(-6px) rotate(-1.5deg)}}
+.card.flip .w2{animation:popIn .55s both}.card.flip mark{animation:badge .7s both}
+@keyframes badge{0%{transform:scale(0)}50%{transform:scale(1.5)}100%{transform:scale(1)}}
+.spk{position:absolute;inset:0;pointer-events:none}.spk i{position:absolute;left:50%;top:40%;width:8px;height:8px;border-radius:50%;background:var(--c);opacity:0}
+.card.flip .spk i{animation:burst .9s ease-out both}
+@keyframes burst{0%{opacity:1;transform:translate(-50%,-50%) scale(.4)}100%{opacity:0;transform:translate(calc(-50% + var(--x)),calc(-50% + var(--y))) scale(1)}}
+.card .no{position:relative;text-decoration:none}.card .no::after{content:"";position:absolute;left:0;top:55%;height:2px;background:#DC2626;width:0;transition:width .5s .3s}.card.flip .no::after{width:100%}
+.row mark{background-size:0 100%;background-repeat:no-repeat;background-image:linear-gradient(color-mix(in srgb,var(--c) 22%,#fff),color-mix(in srgb,var(--c) 22%,#fff));background-color:transparent;transition:background-size .6s .35s}.row.in mark{background-size:100% 100%}
+.row s{position:relative;text-decoration:none}.row s::after{content:"";position:absolute;left:-2px;right:-2px;top:52%;height:3px;background:#DC2626;transform:scaleX(0);transform-origin:left;transition:transform .45s}.row.in s::after{transform:scaleX(1)}
+.row.in s:nth-of-type(1)::after{transition-delay:.6s}.row.in s:nth-of-type(2)::after{transition-delay:1.6s}.row.in s:nth-of-type(3)::after{transition-delay:2.6s}
+.stamp{position:absolute;right:-14px;top:-18px;width:54px;height:54px;border-radius:50%;background:#DC2626;color:#fff;font-weight:900;font-size:30px;display:flex;align-items:center;justify-content:center;transform:scale(0) rotate(-30deg);box-shadow:0 6px 16px #DC262655}
+.row.in .stamp{animation:stampIn .5s .5s cubic-bezier(.2,1.6,.4,1) forwards}@keyframes stampIn{to{transform:scale(1) rotate(-12deg)}}
+.row{position:relative}
+.opt{position:relative}.opt.ok::after{content:"✓";position:absolute;right:-12px;top:-14px;width:40px;height:40px;border-radius:50%;background:#fff;color:#16A34A;font-size:26px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px #0003;animation:badge .6s both}
+.opt.dim{animation:shake .4s}@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.quiz img{animation:bob 3.4s ease-in-out infinite}
+.quiz.qin{animation:qIn .6s cubic-bezier(.2,1.3,.4,1) both}@keyframes qIn{from{opacity:0;transform:translateX(60px) rotate(2deg)}}
+.cd{background:none;box-shadow:none}.cd svg{position:absolute;inset:0;transform:rotate(-90deg)}.cd b{position:relative}
+.cd.on{animation:pulseC 1s infinite}@keyframes pulseC{50%{transform:scale(1.1)}}
+.rc.in{animation:popIn .6s both}.dt.in{animation:popIn .6s both}.dt b{display:inline-block;animation:glow 1.6s infinite}
+@keyframes glow{50%{text-shadow:0 0 14px #FDE68A}}
+.title .pill{animation:bob 2.8s ease-in-out infinite}.title .pill.r{animation-delay:.6s}
+.fl{position:absolute;width:7.5%;z-index:0;border-radius:16px;box-shadow:0 10px 24px #4C1D9522;animation:orbit var(--d,7s) ease-in-out infinite alternate;opacity:.95}
+@keyframes orbit{from{transform:translate(0,0) rotate(-8deg)}to{transform:translate(var(--x),var(--y)) rotate(8deg)}}
+.cap{transition:opacity .25s}.cap .w{opacity:.25;transition:opacity .15s,color .15s}.cap .w.s{opacity:1}.cap .w.cu{color:#FDE68A}
+.cap.out{position:static;transform:none;max-width:none;margin:8px 0 0;min-height:76px;display:block;border-radius:14px}
+.hen{transition:right .8s,bottom .8s,width .8s,top .8s,left .8s}
+.hen svg{transform-origin:50% 90%}
+.mu{font-size:15px!important}
+.cards{position:relative}.cards::after{content:"";position:absolute;top:-4%;bottom:-4%;width:14%;left:-14%;background:linear-gradient(90deg,transparent,#ffffffcc,transparent);pointer-events:none;opacity:0}
+.scene.on .cards::after{animation:sweep 1.4s 1s ease-in-out}@keyframes sweep{0%{left:-14%;opacity:1}100%{left:100%;opacity:1}}
+@media(max-width:700px){.fl{width:12%}}
+.row .k{white-space:nowrap;min-width:max(22%,max-content);margin-right:.5em}.fx{display:flex;flex-wrap:wrap;gap:.2em 1.1em;font-size:.9em}.fx>span{white-space:nowrap}
+.row.in .fx>span:nth-child(1) s::after{transition-delay:.6s}.row.in .fx>span:nth-child(2) s::after{transition-delay:1.6s}.row.in .fx>span:nth-child(3) s::after{transition-delay:2.6s}
+.cap{white-space:nowrap;max-width:none!important;width:auto}.cap .l1,.cap i{display:block;white-space:nowrap;line-height:1.35}.cap.out{text-align:center;padding:.5em .6em}
+
+.lgimg{height:42px;display:block}
+.wm{background:none!important;padding:0!important;height:clamp(26px,4vw,46px);width:auto;filter:drop-shadow(0 1px 6px rgba(255,255,255,.9))}
+/* count2 pairs */
+.pairs{display:grid;grid-template-columns:1fr 1fr;gap:2.4vh 3%;margin-top:2.5%;width:78%}
+.pr{--c:#2563EB;display:flex;align-items:center;gap:3%;background:#fff;border:3px solid color-mix(in srgb,var(--c) 25%,#fff);border-radius:18px;padding:1.6% 2.4%}
+.pr .p1,.pr .p2{display:flex;flex-direction:column;align-items:center;gap:4px;font-weight:900;font-size:clamp(13px,1.8vw,24px);white-space:nowrap}
+.pr .p1 img{height:clamp(34px,7vh,70px);width:clamp(46px,7vw,96px);object-fit:contain}
+.pr .p2{flex:1}.mis{display:flex;justify-content:center;height:clamp(34px,7vh,70px);align-items:center}
+.mi{height:85%;width:clamp(24px,3vw,44px);object-fit:contain;margin-left:-1.2%;opacity:0;transform:scale(0) rotate(-20deg)}
+.pr.flip .mi{animation:miIn .45s cubic-bezier(.2,1.6,.4,1) forwards;animation-delay:calc(var(--m)*.18s)}
+@keyframes miIn{to{opacity:1;transform:none}}
+.pr .p2 span{opacity:.15;transition:opacity .4s .3s}.pr.flip .p2 span{opacity:1;color:var(--c)}
+.pr .ar,.vs .ar{font-size:clamp(16px,2.4vw,32px);color:#94A3B8;font-weight:900}
+.pr.flip .ar{color:var(--c);animation:nudge .6s}@keyframes nudge{50%{transform:translateX(8px)}}
+.pairs.anon mark.an{animation:badge .7s both;background:#F59E0B;color:#fff;box-shadow:0 0 0 4px #FDE68A}
+/* we don't say / we say */
+.vss{display:flex;flex-direction:column;gap:1.8vh;margin-top:2.2%;width:78%}
+.vs{--c:#2563EB;display:grid;grid-template-columns:auto 1fr auto 1.5fr;align-items:center;gap:2%;background:#fff;border-radius:16px;padding:1% 2%;box-shadow:0 4px 14px #4C1D9512}
+.vs.nc{--c:#DC2626}.vs.tk{--c:#9333EA;grid-template-columns:auto .75fr auto 2fr}.vs .tkw{color:#7E22CE;margin-right:.35em}.vs.tk .bad,.vs.tk .good{font-size:clamp(12px,1.6vw,22px)}
+.apl{filter:saturate(.5) brightness(1.1) hue-rotate(-12deg)}.vs .th{height:clamp(30px,7vh,64px);width:clamp(40px,6vw,86px);object-fit:cover;border-radius:10px}
+.vs .bad,.vs .good{position:relative;display:flex;align-items:center;gap:.5em;font-weight:900;font-size:clamp(13px,1.85vw,25px);white-space:nowrap;border-radius:12px;padding:.35em .6em}
+.vs .bad{background:#FEF2F2;color:#991B1B}.vs .good{background:#F0FDF4;color:#14532D;opacity:.2;transition:opacity .4s}
+.vs .good mark{--c:#16A34A}
+.vs .xx,.vs .ck{flex:none;width:1.6em;height:1.6em;border-radius:50%;color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.05em;transform:scale(0) rotate(-40deg)}
+.vs .xx{background:#DC2626;box-shadow:0 0 0 0 #DC262666}.vs .ck{background:#16A34A}
+.vs.in .xx{animation:bigX .6s cubic-bezier(.2,1.7,.4,1) forwards,ringR 1.2s .6s 2}
+@keyframes bigX{0%{transform:scale(3) rotate(-40deg);opacity:0}100%{transform:scale(1) rotate(0);opacity:1}}
+@keyframes ringR{0%{box-shadow:0 0 0 0 #DC262688}100%{box-shadow:0 0 0 16px #DC262600}}
+.vs .bad s{position:relative;text-decoration:none}.vs .bad s::after{content:"";position:absolute;left:-3px;right:-3px;top:52%;height:3px;background:#DC2626;transform:scaleX(0);transform-origin:left;transition:transform .45s .45s}.vs.in .bad s::after{transform:scaleX(1)}
+.vs.in .bad{animation:shake .45s .5s}
+.vs.ok .good{opacity:1;animation:popIn .55s both}.vs.ok .ck{animation:bigX .6s cubic-bezier(.2,1.7,.4,1) forwards}
+.vs.ok .ar{color:#16A34A;animation:nudge .6s}
+@media(max-width:700px){.pairs{grid-template-columns:1fr;width:100%;gap:1.2vh}.vss{width:100%;gap:1.2vh}.vs{grid-template-columns:auto 1fr;grid-template-rows:auto auto;row-gap:4px}.vs .th{grid-row:1/3}.vs .ar{display:none}.vs .bad,.vs .good{font-size:13px}.pr .p1,.pr .p2{font-size:13px}.lgimg{height:26px}}
+
+body{font-family:Inter,system-ui,"Segoe UI",Roboto,sans-serif}h1{font-family:"Playfair Display",Georgia,serif}
+.rows .row .k{min-width:max(24%,max-content)}.row .sx{flex:1;min-width:0}.row .sx mark{display:inline}
+.vs.sm .bad,.vs.sm .good{font-size:clamp(11px,1.45vw,20px);white-space:normal}.vs.sm{grid-template-columns:auto 1fr auto 1.25fr}.vs.sm .bad s{text-decoration:line-through 2px #DC2626}.vs.sm .bad s::after{display:none}
+/* photo cards */
+.card .em{font-size:clamp(40px,6vw,86px);line-height:1.2;display:block;animation:bob 3s ease-in-out infinite}
+.card img.ph{object-fit:cover;aspect-ratio:4/3}
+/* dialogue scene */
+.scene.pbg{background-size:cover;background-position:center}
+.scene.pbg::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#1E1B2Ef0 0%,#1E1B2Ec0 55%,#1E1B2E30 100%)}
+.scene.pbg>*{position:relative}.scene.pbg .eyb{color:#FDE68A}.scene.pbg h1{color:#fff}.scene.pbg h1 small{color:#E9D5FF}
+.bubs{display:flex;flex-direction:column;gap:2.2vh;margin-top:3%;width:66%}
+.bub{--c:#7C3AED;display:flex;align-items:flex-end;gap:1.4%}
+.bub .av{flex:none;width:clamp(34px,4.4vw,60px);aspect-ratio:1;border-radius:50%;background:var(--c);color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center;font-size:clamp(14px,1.9vw,26px);border:3px solid #fff}
+.bub .tx{background:#fff;border-radius:18px 18px 18px 4px;padding:.55em .9em;font-weight:800;font-size:clamp(14px,1.95vw,27px);box-shadow:0 8px 20px #0003}
+.bub .tx small{display:block;color:var(--c);font-size:.6em;font-weight:900;letter-spacing:1px;text-transform:uppercase}
+.bub.r{flex-direction:row-reverse}.bub.r .tx{border-radius:18px 18px 4px 18px}
+.bub mark{--c:#F59E0B}.bub.in mark{background:#F59E0B;color:#fff}
+.bub.focus{box-shadow:none!important}.bub.focus .tx{box-shadow:0 0 0 5px #FDE68A,0 10px 26px #0005}
+/* explain card (pause) */
+.exc{display:grid;grid-template-columns:36% 1fr;gap:4%;width:76%;margin-top:2.6%;align-items:start}
+.exc>img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:20px;border:4px solid #F59E0B;box-shadow:0 14px 30px #4C1D9530;animation:bob 3.4s ease-in-out infinite}
+.exc .term{font-weight:900;color:#7C3AED;font-size:clamp(22px,3.3vw,46px);line-height:1.05}
+.exb{--c:#7C3AED;background:#fff;border-left:7px solid var(--c);border-radius:14px;padding:1.4% 2.6%;margin-top:2.2%;font-weight:700;font-size:clamp(13px,1.75vw,24px)}
+.exb b.l{display:block;font-size:.62em;letter-spacing:1.5px;text-transform:uppercase;color:var(--c)}
+.exb.w{--c:#0891B2}.exb.x{--c:#16A34A;font-style:italic}.exb.n{--c:#DC2626}
+.pz{position:absolute;right:21%;top:7%;background:#DC2626;color:#fff;font-weight:900;border-radius:30px;padding:.35em 1em;font-size:clamp(12px,1.6vw,22px);letter-spacing:2px;animation:pulseC 1.2s infinite;z-index:3}
+/* textbook vs natural */
+.tvs{display:flex;flex-direction:column;gap:2vh;margin-top:2.4%;width:78%}
+.tv{display:grid;grid-template-columns:auto 1fr auto 1.15fr;align-items:center;gap:1.6%;background:#fff;border-radius:16px;padding:1.1% 1.6%;box-shadow:0 4px 14px #4C1D9512}
+.tv .th{height:clamp(34px,8vh,74px);width:clamp(46px,7vw,100px);object-fit:cover;border-radius:10px}
+.tv .tb,.tv .nt{border-radius:12px;padding:.4em .7em;font-weight:800;font-size:clamp(12px,1.6vw,22px)}
+.tv .tb{background:#F1F5F9;color:#475569}.tv .nt{background:#F5F3FF;color:#4C1D95;opacity:.15;transition:opacity .4s}
+.tv .tb b,.tv .nt b{display:block;font-size:.62em;letter-spacing:1.5px}.tv .tb b{color:#64748B}.tv .nt b{color:#7C3AED}
+.tv .ar{font-size:clamp(16px,2.4vw,32px);color:#94A3B8;font-weight:900}
+.tv.ok .nt{opacity:1;animation:popIn .55s both;box-shadow:0 0 0 3px #C4B5FD}.tv.ok .ar{color:#7C3AED;animation:nudge .6s}
+.tv.in .tb{animation:shake .45s .4s}
+/* pronunciation hacks */
+.hks{display:flex;flex-direction:column;gap:2.2vh;margin-top:2.6%;width:76%}
+.hk{display:grid;grid-template-columns:1.3fr auto 1fr;align-items:center;gap:2%;background:#1E1B2E;color:#fff;border-radius:18px;padding:1.4% 2.4%}
+.hk .pp{font-weight:900;font-size:clamp(15px,2.2vw,30px)}.hk .pp u{text-decoration:none;color:#FDE68A}.hk .pp i{color:#F59E0B;font-style:normal;font-weight:900;padding:0 .05em}
+.hk .eq{font-size:clamp(16px,2.4vw,32px);color:#A78BFA;font-weight:900}
+.hk .sl{justify-self:start;background:#F59E0B;color:#1E1B2E;border-radius:40px;padding:.3em .9em;font-weight:900;font-size:clamp(15px,2.2vw,30px);letter-spacing:.5px}
+.hk.in .sl{animation:popIn .6s .3s both}.hk .tip{grid-column:1/-1;font-size:clamp(11px,1.35vw,18px);color:#C4B5FD;font-weight:600}
+.recap.r3{grid-template-columns:1fr 1fr 1fr}
+.chiprow{display:flex;flex-wrap:wrap;gap:1.4%;width:76%;margin-top:3%}.chiprow span{background:#fff;border:3px solid #C4B5FD;border-radius:40px;padding:.4em 1em;font-weight:900;color:#5B21B6;font-size:clamp(13px,1.9vw,26px);margin-bottom:1.4%}
+.chiprow span.in{background:#7C3AED;color:#fff;border-color:#7C3AED}
+@media(max-width:700px){.bubs,.exc,.tvs,.hks,.chiprow{width:100%}.bub .tx{font-size:14px}.exc{grid-template-columns:1fr;gap:8px}.exc>img{width:46%;aspect-ratio:4/3}.exb{font-size:13px;padding:6px 10px}.exc .term{font-size:24px}
+ .tv{grid-template-columns:1fr;gap:4px;padding:6px 8px}.tv .th,.tv .ar{display:none}.tv .tb,.tv .nt{font-size:13px}
+ .hk{grid-template-columns:1fr;gap:4px;padding:8px 10px}.hk .eq{display:none}.hk .pp,.hk .sl{font-size:16px}.hk .tip{font-size:12px}
+ .pz{right:auto;left:5%;top:auto;bottom:3%}.recap.r3{grid-template-columns:1fr}.scene.pbg::before{background:#1E1B2Ed8}}
+.scene.dk h1{color:#fff}.scene.dk h1 small{color:#E9D5FF}.scene.dk .hk{box-shadow:0 10px 30px #0006;border:1px solid #ffffff22}
+/* recording mode (mp4) */
+body.rec{background:#000;overflow:hidden}.rec .top,.rec .meta,.rec .chips,.rec .ctl{display:none!important}
+.rec .player{max-width:none;padding:0}.rec .scr{width:100vw;height:100vh;aspect-ratio:auto;border-radius:0;box-shadow:none}
+#cov{display:none}.rec #cov{display:block;position:fixed;inset:0;background:#000;z-index:100}.rec.go #cov{display:none}
+</style></head><body>
+<div class="top"><img class="lgimg" src="img/logo.png" alt="WE GO English School"> GO SENIORS · Real English <span class="tag">GO SENIORS 4 · Unit 1 · Session 4</span></div>
+<div class="player"><div class="scr big" id="scr">
+<div class="scene " data-s="intro"><img class="fl" src="img/s4-oir-01.webp" style="left:78%;top:6%;--x:20px;--y:30px;--d:6s;aspect-ratio:1;object-fit:cover"><img class="fl" src="img/s4-oir-02.webp" style="left:56%;top:74%;--x:-24px;--y:-18px;--d:7s;aspect-ratio:1;object-fit:cover"><img class="fl" src="img/s4-oir-05.webp" style="left:4%;top:72%;--x:30px;--y:-20px;--d:8s;aspect-ratio:1;object-fit:cover"><img class="fl" src="img/s4-oir-03.webp" style="left:30%;top:5%;--x:-20px;--y:20px;--d:6.5s;aspect-ratio:1;object-fit:cover"><div class="title"><div class="eyb">Real English · Food and health</div><h1>Say it like a native<small>Cómo decirlo como nativo</small></h1><div class="pills b" data-b="1"><span class="pill">Textbook → Natural</span><span class="pill r">Pronunciation hacks</span></div></div></div>
+<div class="scene " data-s="tv1"><div class="eyb">1 · Office kitchen</div><h1>Offer a snack<small>Ofrecer algo de comer</small></h1><div class="tvs"><div class="tv b" data-b="1"><img class="th" src="img/s4-oir-01.webp"><div class="tb"><b>📘 TEXTBOOK</b>Do you want to eat some potato chips?</div><div class="ar">→</div><div class="nt"><b>🗣️ NATURAL</b>Want some chips?</div></div><div class="tv b" data-b="2"><img class="th" src="img/s4-oir-01.webp"><div class="tb"><b>📘 TEXTBOOK</b>No, thank you. I would prefer to eat a healthy snack.</div><div class="ar">→</div><div class="nt"><b>🗣️ NATURAL</b>No, thanks. I'm trying to have a healthy snack.</div></div></div></div>
+<div class="scene " data-s="tv2"><div class="eyb">2 · Smoothie bar &amp; office</div><h1>How you feel<small>Cómo te sientes</small></h1><div class="tvs"><div class="tv b" data-b="1"><img class="th" src="img/s4-oir-02.webp"><div class="tb"><b>📘 TEXTBOOK</b>I am very hungry.</div><div class="ar">→</div><div class="nt"><b>🗣️ NATURAL</b>I'm starving.</div></div><div class="tv b" data-b="2"><img class="th" src="img/s4-oir-01.webp"><div class="tb"><b>📘 TEXTBOOK</b>I will eat only a small quantity.</div><div class="ar">→</div><div class="nt"><b>🗣️ NATURAL</b>I'll have a small piece. Everything in moderation!</div></div></div></div>
+<div class="scene " data-s="tv3"><div class="eyb">3 · Asking</div><h1>Ask what there is<small>Preguntar qué hay</small></h1><div class="tvs"><div class="tv b" data-b="1"><img class="th" src="img/s4-oir-01.webp"><div class="tb"><b>📘 TEXTBOOK</b>Is there cake remaining from the party?</div><div class="ar">→</div><div class="nt"><b>🗣️ NATURAL</b>Is there any cake left from the birthday party?</div></div><div class="tv b" data-b="2"><img class="th" src="img/s4-oir-02.webp"><div class="tb"><b>📘 TEXTBOOK</b>Are there options that are healthy?</div><div class="ar">→</div><div class="nt"><b>🗣️ NATURAL</b>Are there any healthy options?</div></div></div></div>
+<div class="scene " data-s="tv4"><div class="eyb">4 · Park bench</div><h1>Share and agree<small>Compartir y aceptar</small></h1><div class="tvs"><div class="tv b" data-b="1"><img class="th" src="img/s4-oir-05.webp"><div class="tb"><b>📘 TEXTBOOK</b>That is a very big quantity of food.</div><div class="ar">→</div><div class="nt"><b>🗣️ NATURAL</b>This sandwich is huge! It's a big portion for lunch.</div></div><div class="tv b" data-b="2"><img class="th" src="img/s4-oir-05.webp"><div class="tb"><b>📘 TEXTBOOK</b>I agree. We will divide it in two equal parts.</div><div class="ar">→</div><div class="nt"><b>🗣️ NATURAL</b>Deal. Half for you, half for me.</div></div></div></div>
+<div class="scene dk" data-s="hk1"><div class="eyb" style="color:#F59E0B">Pronunciation hack 1</div><h1>Linked sounds<small>Sonidos enlazados: los nativos unen las palabras</small></h1><div class="hks"><div class="hk b" data-b="1"><div class="pp">Is<i>‿</i>there<i>‿</i>any cake left?</div><div class="eq">≈</div><div class="sl">iz-ther-eny</div><div class="tip">Is there any → una sola “palabra”</div></div><div class="hk b" data-b="2"><div class="pp">Are<i>‿</i>there<i>‿</i>any healthy options?</div><div class="eq">≈</div><div class="sl">ar-ther-eny</div><div class="tip">Are there any → igual: todo junto</div></div><div class="hk b" data-b="3"><div class="pp">There's<i>‿</i>a big bag on the counter.</div><div class="eq">≈</div><div class="sl">ther-za big bag</div><div class="tip">There's a → ther-za</div></div></div></div>
+<div class="scene dk" data-s="hk2"><div class="eyb" style="color:#F59E0B">Pronunciation hack 2</div><h1>The TH sound<small>La TH: lengua entre los dientes</small></h1><div class="hks"><div class="hk b" data-b="1"><div class="pp"><u>th</u>ere · <u>th</u>ere's · <u>th</u>ere are</div><div class="eq">≈</div><div class="sl">ð · voz</div><div class="tip">Lengua entre los dientes, con voz (no “der”)</div></div><div class="hk b" data-b="2"><div class="pp">heal<u>th</u>y · a heal<u>th</u>y snack</div><div class="eq">≈</div><div class="sl">θ · aire</div><div class="tip">Lengua entre los dientes, solo aire (no “helti”)</div></div></div></div>
+<div class="scene dk" data-s="hk3"><div class="eyb" style="color:#F59E0B">Pronunciation hack 3</div><h1>Small words are weak<small>Las palabras pequeñas se dicen rápido y suave</small></h1><div class="hks"><div class="hk b" data-b="1"><div class="pp">Want <u>some</u> chips?</div><div class="eq">≈</div><div class="sl">wan-sum chips</div><div class="tip">some → “sum”, muy corto</div></div><div class="hk b" data-b="2"><div class="pp">Half <u>for</u> you, half <u>for</u> me.</div><div class="eq">≈</div><div class="sl">haf-fer-you</div><div class="tip">for → “fer”</div></div><div class="hk b" data-b="3"><div class="pp">It's <u>a</u> small por<u>tion</u>.</div><div class="eq">≈</div><div class="sl">uh small POR-shun</div><div class="tip">a → “uh” · -tion → “shun”</div></div></div></div>
+<div class="scene " data-s="quiz"><div class="eyb">Your turn</div><h1>Which one sounds natural?<small>¿Cuál suena natural?</small></h1><div class="cd" id="cd"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="#7C3AED"/><circle id="cdr" cx="20" cy="20" r="15" fill="none" stroke="#FDE68A" stroke-width="3" stroke-dasharray="94.2" stroke-dashoffset="0"/></svg><b id="cdn">3</b></div><div class="quiz" data-q="0"><img src="img/s4-oir-01.webp"><div><div class="qn">1 / 3</div><div class="q">You offer chips to a friend.</div><div class="opts"><div class="opt">Do you want to eat potato chips?</div><div class="opt c">Want some chips?</div></div></div></div><div class="quiz" data-q="2"><img src="img/s4-oir-02.webp"><div><div class="qn">2 / 3</div><div class="q">You are very, very hungry.</div><div class="opts"><div class="opt c">I'm starving!</div><div class="opt">I am very hungry.</div></div></div></div><div class="quiz" data-q="4"><img src="img/s4-oir-05.webp"><div><div class="qn">3 / 3</div><div class="q">You want to share a big sandwich.</div><div class="opts"><div class="opt">We will divide it in two parts.</div><div class="opt c">Half for you, half for me.</div></div></div></div></div>
+<div class="scene " data-s="recap"><div class="eyb">Recap</div><h1>Let's remember<small>Recordemos</small></h1><div class="recap "><div class="rc b" data-b="0"><h3>Natural English</h3><p>short and friendly</p><p style="font-weight:600;font-size:.8em">Want some chips? · I'm starving · Deal!</p></div><div class="rc nc b" data-b="1"><h3>Pronunciation hacks</h3><p>join the words · TH · weak small words</p><p style="font-weight:600;font-size:.8em">iz-ther-eny · healthy · wan-sum</p></div></div><div class="dt b" data-b="2">Next: practice in your <b>Daily Target · Unit 1 · Session 4</b> →</div></div>
+<div class="hen" id="hen"><svg viewBox="0 0 220 240" width="220" height="240" overflow="visible"><defs><radialGradient id="gsB" cx=".5" cy=".4" r=".7"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E4DAF7"/></radialGradient><clipPath id="gsC"><circle cx="110" cy="128" r="96"/></clipPath></defs><ellipse class="mSh" cx="110" cy="236" rx="56" ry="5" fill="rgba(26,26,46,.12)"/><g class="mBody"><circle cx="110" cy="128" r="101" fill="none" stroke="#F59E0B" stroke-width="3"/><circle cx="110" cy="128" r="96" fill="url(#gsB)"/><g clip-path="url(#gsC)"><path d="M24 240 Q28 180 78 164 L142 164 Q192 180 196 240 Z" fill="#1F2A44"/><path d="M90 164 L110 206 L130 164 Z" fill="#FFFFFF"/><path d="M90 164 L99 186 L110 170 Z M130 164 L121 186 L110 170 Z" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1.5" stroke-linejoin="round"/><path d="M82 166 L104 214 L94 240 H70 Z" fill="#16203A"/><path d="M138 166 L116 214 L126 240 H150 Z" fill="#16203A"/><path d="M146 200 H162 L158 191 L154 197 L151 190 L148 197 Z" fill="#7C3AED"/><rect x="99" y="142" width="22" height="28" rx="8" fill="#D9A77E"/><g class="mHead"><ellipse cx="63" cy="102" rx="7" ry="11" fill="#D9A77E"/><ellipse cx="157" cy="102" rx="7" ry="11" fill="#D9A77E"/><ellipse cx="110" cy="98" rx="47" ry="55" fill="#E2B48C"/><path d="M63 92 Q60 42 110 40 Q160 42 157 92 Q152 66 138 60 Q112 70 80 62 Q68 70 63 92 Z" fill="#3A2E2A"/><path d="M63 92 Q62 78 68 70 L71 94 Z" fill="#A1A1AA"/><path d="M157 92 Q158 78 152 70 L149 94 Z" fill="#A1A1AA"/><path d="M65 104 Q68 150 110 157 Q152 150 155 104 Q150 128 134 134 Q110 127 86 134 Q70 128 65 104 Z" fill="#3A2E2A" opacity=".92"/><path d="M93 121 Q110 113 127 121 Q110 118 93 121 Z" fill="#3A2E2A"/><g stroke="#3A2E2A" stroke-width="4" fill="none" stroke-linecap="round"><path d="M77 80 Q88 75 99 79"/><path d="M121 79 Q132 75 143 80"/></g><g class="eyeL"><ellipse cx="88" cy="95" rx="8" ry="9" fill="#fff"/><g class="pupL"><circle cx="88" cy="96" r="5" fill="#1A1A2E"/><circle cx="90" cy="94" r="1.6" fill="#fff"/></g></g><g class="eyeR"><ellipse cx="132" cy="95" rx="8" ry="9" fill="#fff"/><g class="pupR"><circle cx="132" cy="96" r="5" fill="#1A1A2E"/><circle cx="134" cy="94" r="1.6" fill="#fff"/></g></g><g fill="none" stroke="#1A1A2E" stroke-width="2.6"><rect x="72" y="83" width="32" height="24" rx="9"/><rect x="116" y="83" width="32" height="24" rx="9"/><path d="M104 93 Q110 89 116 93"/><path d="M72 92 L64 90"/><path d="M148 92 L156 90"/></g><path class="mSmile" d="M97 127 Q110 134 123 127" stroke="#6B3326" stroke-width="3.5" fill="none" stroke-linecap="round"/><g class="mOpen"><path d="M97 124 Q110 122 123 124 Q121 139 110 140 Q99 139 97 124 Z" fill="#4A2A20"/><path d="M100 125 H120 V128.5 H100 Z" fill="#fff"/></g></g></g><g class="mArmL"></g><g class="mArmR"></g></g></svg></div>
+<div class="cap" id="cap"></div><img class="wm" src="img/logo.png" alt="WE GO English School">
+<div class="start" id="start"><span>▶</span></div>
+</div>
+<div class="ctl ctl-hide"><button id="pp">▶</button><span id="tm">0:00</span><div class="bar" id="bar"><i id="pr"></i></div><span id="chn"></span><button class="mu" id="mub" title="Music on/off">♪ on</button><button class="cc" id="ccb">CC</button></div>
+<div class="meta"><h2>Real English · Cómo decirlo como nativo: textbook vs natural + pronunciation hacks</h2><p>WE GO English School · Real English · <span id="dur"></span> · Subtítulos en español (CC) · Example student panel content</p></div>
+<div class="chips" id="chips"></div></div>
+<div id="cov"></div>
+<audio id="mu" src="video_s4_real_english_music.mp3" loop preload="none"></audio><audio id="au" src="video_s4_real_english_voice.mp3" preload="auto"></audio>
+<script>
+const D={"T": [{"sc": "intro", "b": 0, "t0": 0.6, "t1": 4.2, "en": "Hi! I'm Henry. Welcome to Real English.", "es": "¡Hola! Soy Henry. Bienvenido a Real English.", "think": false, "k": 0, "segs": [[0.0, "Hi! I'm Henry. Welcome to Real English.", "¡Hola! Soy Henry. Bienvenido a Real English."]], "h": true}, {"sc": "intro", "b": 1, "t0": 4.55, "t1": 11.75, "en": "Today: textbook English versus natural English, when you talk about food. Plus some pronunciation hacks!", "es": "Hoy: inglés de libro contra inglés natural cuando hablas de comida. ¡Y unos trucos de pronunciación!", "think": false, "k": 1, "segs": [[0.0, "Today: textbook English versus natural English,", "Hoy: inglés de libro contra inglés natural"], [0.461, "when you talk about food.", "cuando hablas de comida."], [0.706, "Plus some pronunciation hacks!", "¡Y unos trucos de pronunciación!"]], "h": true}, {"sc": "tv1", "b": 0, "t0": 12.7, "t1": 15.48, "en": "First, offering a snack at the office.", "es": "Primero, ofrecer algo de comer en la oficina.", "think": false, "k": 2, "segs": [[0.0, "First, offering a snack at the office.", "Primero, ofrecer algo de comer en la oficina."]], "h": true}, {"sc": "tv1", "b": 1, "t0": 15.83, "t1": 20.56, "en": "Textbook: Do you want to eat some potato chips? Natural: Want some chips?", "es": "Libro: ¿Quieres comer papitas? Natural: ¿Unas papitas?", "think": false, "k": 3, "segs": [[0.0, "Textbook: Do you want to eat some potato chips?", "Libro: ¿Quieres comer papitas?"], [0.653, "Natural: Want some chips?", "Natural: ¿Unas papitas?"]], "h": true}, {"sc": "tv1", "b": 2, "t0": 20.91, "t1": 29.31, "en": "Textbook: No, thank you. I would prefer to eat a healthy snack. Natural: No, thanks. I'm trying to have a healthy snack.", "es": "Libro: No, gracias. Preferiría comer un snack saludable. Natural: No, gracias. Intento comer un snack saludable.", "think": false, "k": 4, "segs": [[0.0, "Textbook: No, thank you. I would prefer to eat a healthy snack.", "Libro: No, gracias. Preferiría comer un snack saludable."], [0.529, "Natural: No, thanks. I'm trying to have a healthy snack.", "Natural: No, gracias. Intento comer un snack saludable."]], "h": true}, {"sc": "tv1", "b": 3, "t0": 29.66, "t1": 34.63, "en": "Natural English is shorter. We drop do you, and we say: want some.", "es": "El inglés natural es más corto. Quitamos do you y decimos: want some.", "think": false, "k": 5, "segs": [[0.0, "Natural English is shorter.", "El inglés natural es más corto."], [0.415, "We drop do you, and we say: want some.", "Quitamos do you y decimos: want some."]], "h": true}, {"sc": "tv2", "b": 0, "t0": 35.58, "t1": 37.45, "en": "Now, how you feel.", "es": "Ahora, cómo te sientes.", "think": false, "k": 6, "segs": [[0.0, "Now, how you feel.", "Ahora, cómo te sientes."]], "h": true}, {"sc": "tv2", "b": 1, "t0": 37.8, "t1": 42.12, "en": "Textbook: I am very hungry. Natural: I'm starving.", "es": "Libro: Tengo mucha hambre. Natural: Me muero de hambre.", "think": false, "k": 7, "segs": [[0.0, "Textbook: I am very hungry.", "Libro: Tengo mucha hambre."], [0.551, "Natural: I'm starving.", "Natural: Me muero de hambre."]], "h": true}, {"sc": "tv2", "b": 2, "t0": 42.47, "t1": 50.25, "en": "Textbook: I will eat only a small quantity. Natural: I'll have a small piece. Everything in moderation!", "es": "Libro: Comeré solo una cantidad pequeña. Natural: Un pedacito. ¡Todo con moderación!", "think": false, "k": 8, "segs": [[0.0, "Textbook: I will eat only a small quantity.", "Libro: Comeré solo una cantidad pequeña."], [0.422, "Natural: I'll have a small piece. Everything in moderation!", "Natural: Un pedacito. ¡Todo con moderación!"]], "h": true}, {"sc": "tv3", "b": 0, "t0": 51.2, "t1": 53.07, "en": "Asking what there is.", "es": "Preguntar qué hay.", "think": false, "k": 9, "segs": [[0.0, "Asking what there is.", "Preguntar qué hay."]], "h": true}, {"sc": "tv3", "b": 1, "t0": 53.42, "t1": 60.07, "en": "Textbook: Is there cake remaining from the party? Natural: Is there any cake left from the birthday party?", "es": "Libro: ¿Queda pastel de la fiesta? Natural: ¿Sobró pastel del cumpleaños?", "think": false, "k": 10, "segs": [[0.0, "Textbook: Is there cake remaining from the party?", "Libro: ¿Queda pastel de la fiesta?"], [0.467, "Natural: Is there any cake left from the birthday party?", "Natural: ¿Sobró pastel del cumpleaños?"]], "h": true}, {"sc": "tv3", "b": 2, "t0": 60.42, "t1": 65.84, "en": "Textbook: Are there options that are healthy? Natural: Are there any healthy options?", "es": "Libro: ¿Hay opciones que sean saludables? Natural: ¿Hay opciones saludables?", "think": false, "k": 11, "segs": [[0.0, "Textbook: Are there options that are healthy?", "Libro: ¿Hay opciones que sean saludables?"], [0.536, "Natural: Are there any healthy options?", "Natural: ¿Hay opciones saludables?"]], "h": true}, {"sc": "tv4", "b": 0, "t0": 66.79, "t1": 68.66, "en": "Sharing and agreeing.", "es": "Compartir y aceptar.", "think": false, "k": 12, "segs": [[0.0, "Sharing and agreeing.", "Compartir y aceptar."]], "h": true}, {"sc": "tv4", "b": 1, "t0": 69.01, "t1": 77.22, "en": "Textbook: That is a very big quantity of food. Natural: This sandwich is huge! It's a big portion for lunch.", "es": "Libro: Esa es una cantidad muy grande de comida. Natural: ¡Este sándwich es enorme! Es una porción grande.", "think": false, "k": 13, "segs": [[0.0, "Textbook: That is a very big quantity of food.", "Libro: Esa es una cantidad muy grande de comida."], [0.43, "Natural: This sandwich is huge! It's a big portion for lunch.", "Natural: ¡Este sándwich es enorme! Es una porción grande."]], "h": true}, {"sc": "tv4", "b": 2, "t0": 77.57, "t1": 85.06, "en": "Textbook: I agree. We will divide it in two equal parts. Natural: Deal. Half for you, half for me.", "es": "Libro: De acuerdo. Lo dividiremos en dos partes iguales. Natural: Va. Mitad para ti, mitad para mí.", "think": false, "k": 14, "segs": [[0.0, "Textbook: I agree. We will divide it in two equal parts.", "Libro: De acuerdo. Lo dividiremos en dos partes iguales."], [0.577, "Natural: Deal. Half for you, half for me.", "Natural: Va. Mitad para ti, mitad para mí."]], "h": true}, {"sc": "hk1", "b": 0, "t0": 86.01, "t1": 91.99, "en": "Pronunciation hack number one: linked sounds. Native speakers join the words.", "es": "Truco uno: sonidos enlazados. Los nativos unen las palabras.", "think": false, "k": 15, "segs": [[0.0, "Pronunciation hack number one: linked sounds.", "Truco uno: sonidos enlazados."], [0.592, "Native speakers join the words.", "Los nativos unen las palabras."]], "h": true}, {"sc": "hk1", "b": 1, "t0": 92.34, "t1": 95.94, "en": "Is there any. Is there any cake left?", "es": "Is there any... suena como iz-ther-eny.", "think": false, "k": 16, "segs": [[0.0, "Is there any. Is there any cake left?", "Is there any... suena como iz-ther-eny."]], "h": true}, {"sc": "hk1", "b": 2, "t0": 96.29, "t1": 100.23, "en": "Are there any. Are there any healthy options?", "es": "Are there any... suena como ar-ther-eny.", "think": false, "k": 17, "segs": [[0.0, "Are there any. Are there any healthy options?", "Are there any... suena como ar-ther-eny."]], "h": true}, {"sc": "hk1", "b": 3, "t0": 100.58, "t1": 104.42, "en": "There's a. There's a big bag on the counter.", "es": "There's a... suena como ther-za.", "think": false, "k": 18, "segs": [[0.0, "There's a. There's a big bag on the counter.", "There's a... suena como ther-za."]], "h": true}, {"sc": "hk2", "b": 0, "t0": 105.37, "t1": 110.07, "en": "Hack number two: the TH sound. Put your tongue between your teeth.", "es": "Truco dos: el sonido TH. Pon la lengua entre los dientes.", "think": false, "k": 19, "segs": [[0.0, "Hack number two: the TH sound.", "Truco dos: el sonido TH."], [0.462, "Put your tongue between your teeth.", "Pon la lengua entre los dientes."]], "h": true}, {"sc": "hk2", "b": 1, "t0": 110.42, "t1": 115.27, "en": "There. There's. There are. Use your voice. Not der.", "es": "There. There's. There are. Con voz. No der.", "think": false, "k": 20, "segs": [[0.0, "There. There's. There are.", "There. There's. There are."], [0.52, "Use your voice. Not der.", "Con voz. No der."]], "h": true}, {"sc": "hk2", "b": 2, "t0": 115.62, "t1": 119.7, "en": "Healthy. A healthy snack. Only air. Not helti.", "es": "Healthy. A healthy snack. Solo aire. No helti.", "think": false, "k": 21, "segs": [[0.0, "Healthy. A healthy snack.", "Healthy. A healthy snack."], [0.556, "Only air. Not helti.", "Solo aire. No helti."]], "h": true}, {"sc": "hk3", "b": 0, "t0": 120.65, "t1": 124.51, "en": "Hack number three: small words are weak and fast.", "es": "Truco tres: las palabras pequeñas son suaves y rápidas.", "think": false, "k": 22, "segs": [[0.0, "Hack number three: small words are weak and fast.", "Truco tres: las palabras pequeñas son suaves y rápidas."]], "h": true}, {"sc": "hk3", "b": 1, "t0": 124.86, "t1": 127.57, "en": "Want some chips?", "es": "Want some chips? Suena como wan-sum.", "think": false, "k": 23, "segs": [[0.0, "Want some chips?", "Want some chips? Suena como wan-sum."]], "h": true}, {"sc": "hk3", "b": 2, "t0": 127.92, "t1": 132.19, "en": "Half for you, half for me.", "es": "For suena como fer.", "think": false, "k": 24, "segs": [[0.0, "Half for you, half for me.", "For suena como fer."]], "h": true}, {"sc": "hk3", "b": 3, "t0": 132.54, "t1": 135.76, "en": "It's a small portion. Portion: shun at the end.", "es": "Portion termina en shun.", "think": false, "k": 25, "segs": [[0.0, "It's a small portion. Portion: shun at the end.", "Portion termina en shun."]], "h": true}, {"sc": "quiz", "b": 0, "t0": 136.71, "t1": 141.32, "en": "Your turn. Which one sounds natural? You offer chips to a friend.", "es": "Tu turno. ¿Cuál suena natural? Le ofreces papitas a un amigo.", "think": true, "k": 26, "segs": [[0.0, "Your turn. Which one sounds natural?", "Tu turno. ¿Cuál suena natural?"], [0.562, "You offer chips to a friend.", "Le ofreces papitas a un amigo."]], "h": true}, {"sc": "quiz", "b": 1, "t0": 144.72, "t1": 147.6, "en": "Want some chips? Short and natural.", "es": "Want some chips? Corto y natural.", "think": false, "k": 27, "segs": [[0.0, "Want some chips? Short and natural.", "Want some chips? Corto y natural."]], "h": true}, {"sc": "quiz", "b": 2, "t0": 147.95, "t1": 150.21, "en": "You are very, very hungry.", "es": "Tienes muchísima hambre.", "think": true, "k": 28, "segs": [[0.0, "You are very, very hungry.", "Tienes muchísima hambre."]], "h": true}, {"sc": "quiz", "b": 3, "t0": 153.61, "t1": 155.48, "en": "I'm starving!", "es": "¡I'm starving!", "think": false, "k": 29, "segs": [[0.0, "I'm starving!", "¡I'm starving!"]], "h": true}, {"sc": "quiz", "b": 4, "t0": 155.83, "t1": 157.77, "en": "You want to share a big sandwich.", "es": "Quieres compartir un sándwich grande.", "think": true, "k": 30, "segs": [[0.0, "You want to share a big sandwich.", "Quieres compartir un sándwich grande."]], "h": true}, {"sc": "quiz", "b": 5, "t0": 161.17, "t1": 163.23, "en": "Half for you, half for me.", "es": "Half for you, half for me.", "think": false, "k": 31, "segs": [[0.0, "Half for you, half for me.", "Half for you, half for me."]], "h": true}, {"sc": "recap", "b": 0, "t0": 164.18, "t1": 167.9, "en": "Let's remember: natural English is short and friendly.", "es": "Recordemos: el inglés natural es corto y amigable.", "think": false, "k": 32, "segs": [[0.0, "Let's remember: natural English is short and friendly.", "Recordemos: el inglés natural es corto y amigable."]], "h": true}, {"sc": "recap", "b": 1, "t0": 168.25, "t1": 172.88, "en": "Join the words, practice the TH, and make small words weak.", "es": "Une las palabras, practica la TH y di suave las palabras pequeñas.", "think": false, "k": 33, "segs": [[0.0, "Join the words, practice the TH,", "Une las palabras, practica la TH"], [0.552, "and make small words weak.", "y di suave las palabras pequeñas."]], "h": true}, {"sc": "recap", "b": 2, "t0": 173.23, "t1": 176.64, "en": "Now practice in your Daily Target. See you soon!", "es": "Practica en tu Daily Target. ¡Hasta pronto!", "think": false, "k": 34, "segs": [[0.0, "Now practice in your Daily Target. See you soon!", "Practica en tu Daily Target. ¡Hasta pronto!"]], "h": true}], "TOTAL": 178.19, "CH": [{"id": "intro", "t": 0.3, "name": "Intro"}, {"id": "tv1", "t": 12.4, "name": "Offer a snack"}, {"id": "tv2", "t": 35.28, "name": "How you feel"}, {"id": "tv3", "t": 50.9, "name": "Ask what there is"}, {"id": "tv4", "t": 66.49, "name": "Share and agree"}, {"id": "hk1", "t": 85.71, "name": "Hack 1 · Linked sounds"}, {"id": "hk2", "t": 105.07, "name": "Hack 2 · The TH sound"}, {"id": "hk3", "t": 120.35, "name": "Hack 3 · Weak small words"}, {"id": "quiz", "t": 136.41, "name": "Your turn"}, {"id": "recap", "t": 163.88, "name": "Recap"}], "AUDIO": true};const REC=location.hash==="#rec";const $=i=>document.getElementById(i);
+const fmt=s=>Math.floor(s/60)+":"+String(Math.floor(s%60)).padStart(2,"0");
+let t=0,playing=false,last=0;const au=$("au");if(!D.AUDIO)au.removeAttribute("src");
+$("dur").textContent=fmt(D.TOTAL);
+const bar=$("bar");D.CH.forEach(c=>{const u=document.createElement("u");u.style.left=(c.t/D.TOTAL*100)+"%";bar.appendChild(u);
+ const b=document.createElement("button");b.className="chip";b.dataset.id=c.id;b.textContent=fmt(Math.max(0,c.t))+"  "+c.name;b.onclick=()=>seek(Math.max(0,c.t)+.01);$("chips").appendChild(b);});
+const H=document.querySelector("#hen svg"),SM=H.querySelector(".mSmile"),OP=H.querySelector(".mOpen");
+function render(){const cur=D.T.filter(x=>x.t0<=t+.001).pop();const sc=cur?cur.sc:"intro";
+ document.querySelectorAll(".scene").forEach(s=>s.classList.toggle("on",s.dataset.s===sc));
+ const S=document.querySelector(`.scene[data-s="${sc}"]`);const b=cur&&cur.sc===sc?cur.b:-1;
+ S.querySelectorAll(".b").forEach(e=>e.classList.toggle("in",+e.dataset.b<=b));
+ S.querySelectorAll("[data-f]").forEach(e=>{const ln=D.T.find(x=>x.sc===sc&&x.b===+e.dataset.f);e.classList.toggle("flip",ln&&t>ln.t0+(ln.t1-ln.t0)*.45);});
+ if(sc==="quiz"){let q=b<0?0:b-(b%2);S.querySelectorAll(".quiz").forEach(e=>e.style.display=+e.dataset.q===q?"grid":"none");
+  const qz=S.querySelector(`.quiz[data-q="${q}"]`);const rev=b%2===1;qz.querySelectorAll(".opt").forEach(o=>{o.classList.toggle("ok",rev&&o.classList.contains("c"));o.classList.toggle("dim",rev&&!o.classList.contains("c"));});
+  const qq=D.T.find(x=>x.sc==="quiz"&&x.b===q);const nx=D.T[qq.k+1];const th=!rev&&t>qq.t1&&t<nx.t0;$("cd").classList.toggle("on",th);}
+ $("scr").classList.toggle("big",sc==="intro");
+ const talk=cur&&cur.h&&t<=cur.t1-.15;
+ const o=talk?.35+.65*Math.abs(Math.sin(t*11)*Math.sin(t*4.3+1)):0;SM.style.opacity=talk?0:1;OP.style.opacity=talk?1:0;OP.setAttribute("transform",`translate(110 124) scale(${.86+.14*o} ${.12+.88*o}) translate(-110 -124)`);
+ $("pr").style.width=(t/D.TOTAL*100)+"%";$("tm").textContent=fmt(t)+" / "+fmt(D.TOTAL);
+ const ch=D.CH.filter(x=>x.t<=t+.01).pop();$("chn").textContent=ch?"· "+ch.name:"";document.querySelectorAll(".chip").forEach(b=>b.classList.toggle("on",ch&&b.dataset.id===ch.id));}
+function loop(n){if(playing){if(D.AUDIO&&!REC)t=au.currentTime;else t+=(n-last)/1000;if(t>=D.TOTAL){t=D.TOTAL;pause();}}last=n;render();requestAnimationFrame(loop);}
+let play=function(){$("start").style.display="none";playing=true;last=performance.now();if(D.AUDIO&&!REC){au.currentTime=t;au.play();}$("pp").textContent="❚❚";};
+let pause=function(){playing=false;if(D.AUDIO)au.pause();$("pp").textContent="▶";};
+function seek(x){t=Math.max(0,Math.min(D.TOTAL,x));if(D.AUDIO)au.currentTime=t;render();}
+window.seek=seek;window.play=play;
+$("start").onclick=play;$("pp").onclick=()=>playing?pause():play();
+bar.onclick=e=>{const r=bar.getBoundingClientRect();seek((e.clientX-r.left)/r.width*D.TOTAL);};
+$("ccb").onclick=()=>document.body.classList.toggle("nocc");
+if(location.hash==="#rec")document.body.classList.add("rec");
+requestAnimationFrame(loop);
+
+/* ===== v2 dynamics ===== */
+function fitCap(){const c=$("cap");const out=c.classList.contains("out");const maxW=(out?c.parentElement.clientWidth:scr.clientWidth*.9)-28;
+ [c.querySelector(".l1"),c.querySelector("i")].forEach((el,j)=>{if(!el)return;const base=out?(j?12:14):Math.max(12,scr.clientWidth*(j?.0165:.021));let f=base;el.style.fontSize=f+"px";while(el.scrollWidth>maxW&&f>8){f-=.5;el.style.fontSize=f+"px";}});}
+addEventListener("resize",()=>{$("cap").dataset.key="";});
+const BG={"intro": ["#FFF7ED", "#EDE4FF"], "tv1": ["#EFF6FF", "#DBEAFE"], "tv2": ["#F0FDF4", "#DCFCE7"], "tv3": ["#FFFBEB", "#FEF3C7"], "tv4": ["#FAF5FF", "#F3E8FF"], "hk1": ["#1E1B2E", "#4C1D95"], "hk2": ["#1E1B2E", "#831843"], "hk3": ["#1E1B2E", "#0E7490"], "quiz": ["#FFFBEB", "#FEF3C7"], "recap": ["#F0FDF4", "#EDE9FE"]};
+const scr=$("scr");Object.entries(BG).forEach(([k,c])=>{const l=document.createElement("div");l.className="bgl";l.dataset.s=k;l.style.background=`radial-gradient(120% 90% at 85% 10%,${c[1]},${c[0]})`;scr.prepend(l);});
+for(let i=0;i<22;i++){const p=document.createElement("i");p.className="pt";const s=4+Math.random()*12;p.style.cssText=`width:${s}px;height:${s}px;left:${Math.random()*100}%;top:${Math.random()*100}%;background:${["#A78BFA","#FBBF24","#F472B6","#60A5FA","#34D399"][i%5]};--x:${(Math.random()-.5)*80}px;--y:${(Math.random()-.5)*80}px;--d:${4+Math.random()*5}s`;scr.insertBefore(p,scr.querySelector(".scene"));}
+document.querySelectorAll(".scene h1").forEach(h=>{const sm=h.querySelector("small");const tx=[...h.childNodes].filter(n=>n!==sm).map(n=>n.textContent).join("");let i=0;h.innerHTML=tx.trim().split(/\s+/).map(w=>`<span class="wd" style="--i:${i++}">${w}</span>`).join(" ");if(sm)h.appendChild(sm);});
+document.querySelectorAll(".scene").forEach(s=>s.querySelectorAll(".b").forEach((e,j)=>e.style.setProperty("--j",j)));
+document.querySelectorAll(".card").forEach((c,j)=>{c.querySelector("img").style.setProperty("--dl",(j*.4)+"s");const sp=document.createElement("div");sp.className="spk";for(let k=0;k<10;k++){const a=k/10*6.28,r=60+Math.random()*40;sp.innerHTML+=`<i style="--x:${Math.cos(a)*r}px;--y:${Math.sin(a)*r}px;animation-delay:${Math.random()*.15}s"></i>`;}c.appendChild(sp);});
+const mu=$("mu");let musicOn=true,mv=0;$("mub").onclick=()=>{musicOn=!musicOn;$("mub").textContent=musicOn?"♪ on":"♪ off";if(!musicOn)mu.pause();else if(playing)mu.play();};
+const capOut=()=>{const c=$("cap"),m=matchMedia("(max-width:700px)").matches;if(m&&!c.classList.contains("out")){c.classList.add("out");scr.after(c);}else if(!m&&c.classList.contains("out")){c.classList.remove("out");scr.appendChild(c);}};capOut();addEventListener("resize",capOut);
+let lastSc=null,lastK=-1;
+function dyn(){const cur=D.T.filter(x=>x.t0<=t+.001).pop();const sc=cur?cur.sc:"intro";
+ document.querySelectorAll(".bgl").forEach(l=>l.classList.toggle("on",l.dataset.s===sc));
+ const S=document.querySelector(`.scene[data-s="${sc}"]`);
+ if(sc!==lastSc){lastSc=sc;S.classList.remove("on");void S.offsetWidth;S.classList.add("on");}
+ const b=cur&&cur.sc===sc?cur.b:-1;
+ S.querySelectorAll(".b").forEach(e=>{const isIn=+e.dataset.b<=b;if(isIn&&!e.classList.contains("in"))e.classList.add("pop");e.classList.toggle("focus",+e.dataset.b===b&&sc!=="intro"&&sc!=="recap");});
+ if(cur&&cur.k!==lastK){lastK=cur.k;}
+ S.querySelectorAll(".vs,.tv").forEach(e=>{const bb=+e.dataset.b;e.classList.toggle("ok",bb<b||(bb===b&&(window.CURSEG||0)>=1));});
+ const pa=S.querySelector(".pairs");if(pa)pa.classList.toggle("anon",b===5);
+ if(sc==="quiz"){S.querySelectorAll(".quiz").forEach(e=>{const sh=e.style.display==="grid";if(sh&&!e.dataset.sh){e.dataset.sh=1;e.classList.remove("qin");void e.offsetWidth;e.classList.add("qin");}if(!sh)delete e.dataset.sh;});
+  const r=$("cdr");if($("cd").classList.contains("on")){const q=D.T.find(x=>x.sc==="quiz"&&x.b===b);const nx=D.T[q.k+1];const f=(nx.t0-t)/(nx.t0-q.t1);r.setAttribute("stroke-dashoffset",94.2*(1-f));$("cdn").textContent=Math.ceil(nx.t0-t);}}
+ // kinetic caption
+ const c=$("cap");if(cur&&t<cur.t1+.3){const pr=Math.min(1,(t-cur.t0)/(cur.t1-cur.t0));let si=0;cur.segs.forEach((s,i)=>{if(pr>=s[0])si=i;});window.CURSEG=si;const sg=cur.segs[si];const se=si+1<cur.segs.length?cur.segs[si+1][0]:1;const lp=(pr-sg[0])/Math.max(.01,se-sg[0]);
+  const ws=sg[1].split(" ");const n=Math.floor(lp*ws.length*1.08)+1;const key=cur.k+"_"+si+"_"+Math.min(n,ws.length+1);
+  if(c.dataset.key!==key){c.dataset.key=key;c.innerHTML='<span class="l1">'+ws.map((w,i)=>`<span class="w${i<n?" s":""}${i===n-1&&pr<1?" cu":""}">${w.replace(/</g,"&lt;")}</span>`).join(" ")+'</span><i>'+sg[2]+'</i>';fitCap();}c.classList.add("on");} else if(c.classList.contains("out")){c.classList.add("on");} else c.classList.remove("on");
+ // Henry body motion
+ const talk=cur&&cur.h&&t<=cur.t1-.15;const ls=cur?t-cur.t0:9;const sc0=D.T.find(x=>x.sc===sc).t0;const sinceSc=t-sc0+.3;
+ const hop=sinceSc<.6?-Math.sin(sinceSc/.6*Math.PI)*14:0;const gest=ls<.7?Math.sin(ls/.7*Math.PI):0;
+ H.style.transform=`translateY(${Math.sin(t*2.2)*2.2+hop}%) rotate(${Math.sin(t*1.3)*2+(talk?Math.sin(t*3.1)*1.5:0)-gest*7}deg) scale(${1+gest*.04})`;
+ // music ducking
+ const target=!musicOn||!playing?0:(talk?.045:.13);mv+=(target-mv)*.08;mu.volume=Math.max(0,Math.min(1,mv));
+ requestAnimationFrame(dyn);}
+requestAnimationFrame(dyn);
+const _play=play;play=function(){_play();if(musicOn){mu.currentTime=t%20;mu.play().catch(()=>{});}};window.play=play;
+const _pause=pause;pause=function(){_pause();mu.pause();};
+$("start").onclick=play;$("pp").onclick=()=>playing?pause():play();
+
+if(REC){const _p2=play;play=function(){document.body.classList.add("go");_p2();};window.play=play;}
+</script></body></html>
